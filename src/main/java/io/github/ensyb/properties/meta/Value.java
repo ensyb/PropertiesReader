@@ -1,17 +1,18 @@
-package org.ensar.properties.meta;
+package io.github.ensyb.properties.meta;
 
+import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * If there is no Value to read from file use default one
- *
+ * Use this one insted of DefaultValue if you using ProperitesLoader.ofNoSource() 
  */
+@Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface DefaultValue {
-	
-	 String value();
+public @interface Value {
+
+	public String value();
 }

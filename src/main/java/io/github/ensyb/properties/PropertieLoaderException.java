@@ -1,4 +1,4 @@
-package org.ensar.properties;
+package io.github.ensyb.properties;
 
 class PropertieLoaderException extends RuntimeException {
 

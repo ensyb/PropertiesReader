@@ -1,9 +1,9 @@
-package org.ensar.properties.resources;
+package io.github.ensyb.properties.constants;
 
-import org.ensar.properties.meta.DefaultValue;
-import org.ensar.properties.meta.IConstants;
-import org.ensar.properties.meta.Key;
-import org.ensar.properties.meta.Value;
+import io.github.ensyb.properties.meta.DefaultValue;
+import io.github.ensyb.properties.meta.IConstants;
+import io.github.ensyb.properties.meta.Key;
+import io.github.ensyb.properties.meta.Value;
 
 public interface ConstatntsInterfaceNoSource extends IConstants{
 

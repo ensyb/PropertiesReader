@@ -1,4 +1,4 @@
-package org.ensar.properties.meta;
+package io.github.ensyb.properties.meta;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;

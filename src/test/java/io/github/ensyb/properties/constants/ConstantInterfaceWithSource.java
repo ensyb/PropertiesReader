@@ -1,11 +1,11 @@
-package org.ensar.properties.resources;
+package io.github.ensyb.properties.constants;
 
-import org.ensar.properties.meta.DefaultValue;
-import org.ensar.properties.meta.IConstants;
-import org.ensar.properties.meta.Key;
-import org.ensar.properties.meta.Source;
+import io.github.ensyb.properties.meta.DefaultValue;
+import io.github.ensyb.properties.meta.IConstants;
+import io.github.ensyb.properties.meta.Key;
+import io.github.ensyb.properties.meta.Source;
 
-@Source("org/ensar/properties/resources/testProperties.properties")
+@Source("TestProps.properties")
 public interface ConstantInterfaceWithSource extends IConstants {
 
 	@Key("first")

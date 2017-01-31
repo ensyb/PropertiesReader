@@ -1,10 +1,13 @@
-package org.ensar.properties;
+package io.github.ensyb.properties;
 
 import static org.junit.Assert.assertEquals;
 
-import org.ensar.properties.resources.ConstatntsInterfaceNoSource;
 import org.junit.Before;
 import org.junit.Test;
+
+import io.github.ensyb.properties.PropertieLoaderException;
+import io.github.ensyb.properties.PropertiesLoader;
+import io.github.ensyb.properties.constants.ConstatntsInterfaceNoSource;
 
 public class PropertiesLoaderTest {
 
