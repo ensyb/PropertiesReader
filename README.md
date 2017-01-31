@@ -1,0 +1,2 @@
+# PropertiesReader
+properties resource reader 
