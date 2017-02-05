@@ -9,15 +9,15 @@ public interface ConstatntsInterfaceNoSource extends IConstants{
 
 	
 	@Value("Ensar")
-	public String name();
+    String name();
 	
 	
 	@Value("Bavrk")
-	public String secondname();
+    String secondname();
 	
 	@DefaultValue("nesto")
-	public String nesto();
+    String nesto();
 	
 	@Key("excp")
-	public String expectedException();
+    String expectedException();
 }

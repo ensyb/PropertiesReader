@@ -10,20 +10,20 @@ public interface ConstantInterfaceWithSource extends IConstants {
 
 	@Key("first")
 	@DefaultValue("defaultFirstValue")
-	public String firstProperty();
+    String firstProperty();
 	
 	@Key("second")
 	@DefaultValue("defaultSecondValue")
-	public String secondProperty();
+    String secondProperty();
 	
 	@Key("third")
 	@DefaultValue("defaultThirdValue")
-	public String thirdProperty();
+    String thirdProperty();
 	
 	@DefaultValue("oneConstant")
-	public String someOtherConstant();
+    String someOtherConstant();
 	
 	@Key("noValueForKey")
-	public String noDefaultValue();
+    String noDefaultValue();
 	
 }

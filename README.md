@@ -2,6 +2,16 @@
 
 load values from properties file 
 
+maven usage :
+
+```xml 
+<dependency>
+	<groupId>io.github.ensyb.properties</groupId>
+	<artifactId>PropertiesReader</artifactId>
+	<version>0.1.3</version>
+</dependency>
+```
+
 ```java
 @Source("package/testProperties.properties")
 public interface ConstantsWithSource extends IConstants {

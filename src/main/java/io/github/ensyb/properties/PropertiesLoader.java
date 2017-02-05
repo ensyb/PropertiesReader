@@ -105,7 +105,7 @@ public class PropertiesLoader {
 	private static <T extends Annotation> boolean checkIfAnnotationIsPresentOnMethod(Method method,
 			Class<? extends Annotation> annotationClass) {
 		Annotation annoatation = method.getAnnotation(annotationClass);
-		return (annoatation == null) ? false : true;
+		return annoatation != null;
 	}
 
 	private static String loadOfNoSource(Method method) {

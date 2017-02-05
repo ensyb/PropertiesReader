@@ -14,5 +14,5 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 public @interface Value {
 
-	public String value();
+	String value();
 }
